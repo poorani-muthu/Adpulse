@@ -190,15 +190,3 @@ ClickFraudDetector (5): legit traffic, bot detected, score range, empty events, 
 > Built a full-stack ad campaign analytics platform with JWT auth, role-based access, and CRUD. Implemented three C++ computation engines (statistical A/B testing via Welch's t-test with Lanczos gamma approximation, keyword match engine with Porter Stemmer and Jaccard relevance scoring, click fraud detector using Z-score velocity analysis and bot CV detection) compiled to WebAssembly via Emscripten. Deployed on Vercel + Render with 32 automated tests across Vitest, JUnit 5, and Google Test.
 
 ---
-
-## Skills Demonstrated (mapped to JD)
-
-| JD Requirement | Evidence in Project |
-|---|---|
-| Python/C/C++/Java/JavaScript | C++ engines, Java Spring Boot, React/JS frontend |
-| Write product/system code | Full CRUD, JWT auth, REST API, 3 C++ engines |
-| Code review practices | Clean architecture, DTOs, separation of concerns |
-| Documentation | This README, inline comments, API table |
-| Triage/debug issues | Error handling in all layers, test suite catches regressions |
-| Accessible technologies | Semantic HTML, ARIA-compatible, keyboard-navigable |
-| Large-scale system design | Designed for WASM integration, stateless JWT, H2→Postgres swap-ready |
