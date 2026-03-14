@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: adpulse-backend
+    runtime: java
+    rootDir: backend
+    buildCommand: mvn package -DskipTests
+    startCommand: java -jar target/adpulse-backend-1.0.0.jar
+    envVars:
+      - key: JAVA_VERSION
+        value: 17
