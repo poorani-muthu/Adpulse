@@ -1,10 +1,9 @@
 {
   "build": {
     "builder": "DOCKERFILE",
-    "dockerfilePath": "backend/Dockerfile"
+    "dockerfilePath": "Dockerfile"
   },
   "deploy": {
-    "startCommand": "java -jar $(find /app/target -name '*.jar' | head -1)",
     "restartPolicyType": "ON_FAILURE"
   }
 }
