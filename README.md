@@ -1,6 +1,6 @@
 # AdPulse — Google Ads Analytics Platform
 
-[![Live Website](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61dafb?style=flat)](https://adpulse-three.vercel.app/login)
+[![Live Website](https://img.shields.io/badge/Live-Website%20%2B%20Vite-61dafb?style=flat)](https://adpulse-three.vercel.app/login)
 
 A full-stack ad campaign analytics platform built to demonstrate software engineering skills aligned with the **Google Ads Software Engineer II** role.
 
