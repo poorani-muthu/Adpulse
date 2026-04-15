@@ -1,0 +1,6 @@
+# nixpacks.toml
+[phases.build]
+cmds = ['./gradlew bootJar']  # Or 'mvn clean package'
+
+[deploy]
+startCommand = "java $JAVA_OPTS -Dserver.port=$PORT -jar build/libs/*-boot.jar"  # Adjust JAR pattern
