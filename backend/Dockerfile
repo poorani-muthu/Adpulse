@@ -4,4 +4,4 @@ COPY pom.xml .
 COPY src ./src
 RUN mvn package -DskipTests
 EXPOSE 8080
-ENTRYPOINT ["sh", "-c", "java -jar target/*.jar"]
+ENTRYPOINT ["sh", "-c", "java -jar $(find /app/target -name \"*.jar\" | head -1)"]
