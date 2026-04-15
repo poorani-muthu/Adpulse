@@ -1,9 +1,10 @@
+# railway.json
 {
+  "$schema": "https://railway.app/railway.schema.json",
   "build": {
-    "builder": "NIXPACKS",
-    "buildCommand": "./gradlew bootJar"
+    "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "java $JAVA_OPTS -Dserver.port=$PORT -jar build/libs/*.jar"
+    "startCommand": "sh -c 'java $JAVA_OPTS -Dserver.port=${PORT} -jar target/*.jar'"
   }
 }
